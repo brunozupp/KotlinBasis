@@ -14,6 +14,9 @@ fun main() {
     println(singleExpressionFunction())
     println(singleExpressionFunctionWithOmittedTypeReturn())
     singleExpressionFunctionWithOmittedTypeReturningNothing()
+
+    namedFunction(name = "Bruno", greeting = "Olá")
+    namedFunctionWithDefaultValue(name = "Rose")
 }
 
 fun printName() {
@@ -51,3 +54,10 @@ fun singleExpressionFunctionWithOmittedTypeReturn() = "Retornando valor simplifi
 
 fun singleExpressionFunctionWithOmittedTypeReturningNothing() = println("singleExpressionFunctionWithOmittedTypeReturningNothing")
 
+fun namedFunction(greeting: String, name: String) {
+    println("$greeting $name")
+}
+
+fun namedFunctionWithDefaultValue(greeting: String = "Olá", name: String) {
+    println("$greeting $name")
+}
