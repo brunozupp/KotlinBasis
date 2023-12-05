@@ -16,6 +16,10 @@ fun main() {
     singleExpressionFunctionWithOmittedTypeReturningNothing()
 
     namedFunction(name = "Bruno", greeting = "Olá")
+
+    // Não posso fazer isso, pois uma vez que eu utilizo a nomenclatura eu preciso utilizar em toda passagem de parâmetro
+    //namedFunction(name = "Bruno", "Olá");
+
     namedFunctionWithDefaultValue(name = "Rose")
 }
 
