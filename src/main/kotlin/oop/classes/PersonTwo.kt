@@ -1,4 +1,4 @@
-package oop
+package oop.classes
 
 // Maneira dois de inicializar uma classe
 class PersonTwo(_firstName: String, _lastName: String, _age: Int, _salary: Double, _isSingle: Boolean) {

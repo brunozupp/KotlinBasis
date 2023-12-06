@@ -1,4 +1,4 @@
-package oop
+package oop.classes
 
 class PersonFive(
     val firstName: String,
