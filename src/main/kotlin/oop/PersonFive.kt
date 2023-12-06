@@ -17,4 +17,12 @@ class PersonFive(
         get() {
             return "A comida favorita é = $field"
         }
+
+    fun printPersonInfo() {
+        println("firstName: $firstName | lastName = $lastName | age = $age | salary = $salary | isSingle = $isSingle")
+    }
+
+    fun printNickname() {
+        println(nickname ?: "no nickname available")
+    }
 }

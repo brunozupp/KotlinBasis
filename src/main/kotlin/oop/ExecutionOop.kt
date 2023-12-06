@@ -54,6 +54,7 @@ fun main() {
         salary = 1500.00,
         isSingle = true
     )
+    personFive.printNickname()
     println("personFive.isSingle = ${personFive.isSingle} (Antes de mudar o valor)")
     // Usando a tipagem 'var' é possível mudar o valor de uma propriedade após ser inicializada
     personFive.isSingle = !personFive.isSingle
@@ -68,5 +69,8 @@ fun main() {
     personFive.favoriteFood = "Banana" // Set customizado
     personFive.favoriteFood // Get customizado
     println("personFive.favoriteFood = ${personFive.favoriteFood} (Depois de mudar o valor)")
+
+    personFive.printPersonInfo()
+    personFive.printNickname()
 
 }
