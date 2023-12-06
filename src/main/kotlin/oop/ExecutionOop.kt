@@ -73,4 +73,14 @@ fun main() {
     personFive.printPersonInfo()
     personFive.printNickname()
 
+    val personSix = PersonSix(
+        firstname = "Bruno",
+        lastname = "Noveli"
+    )
+
+    personSix.showTimesNicknameWasSet()
+    personSix.nickname = "Oi"
+    personSix.nickname = "X"
+    personSix.nickname = "Apelido"
+    personSix.showTimesNicknameWasSet()
 }
